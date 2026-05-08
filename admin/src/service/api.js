@@ -2,8 +2,8 @@ import axios from "axios";
 
 const API = axios.create({
 
-  baseURL:
-    "http://localhost:5000/api",
+baseURL:
+  "https://ecommerce-website-c88o.onrender.com/api",
 
 });
 
