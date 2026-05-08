@@ -26,8 +26,6 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://admin-ecommerce-website-anandlakum.netlify.app",
-      "https://ecommerce-website-anandlakum.netlify.app",
     ],
     credentials: true,
   }),
