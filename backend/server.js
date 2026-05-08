@@ -26,6 +26,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
+      "https://admin-ecommerce-website-anandlakum.netlify.app",
+      "https://ecommerce-website-anandlakum.netlify.app",
     ],
     credentials: true,
   }),
@@ -48,5 +50,5 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`Server Running On Port ${PORT}`);
+  console.log(`Server running on ${PORT}`);
 });
