@@ -1,0 +1,3 @@
+admin email = anand@example.com
+admin password = admin@123
+
